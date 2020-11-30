@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import Rating from "./Rating";
+import "./Prodcut.css";
 
 const Product = (props) => {
   return (
