@@ -24,6 +24,12 @@ const Header = () => {
                   Sing in
                 </Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/AddProduct/">
+                <Nav.Link>
+                  <i className="fas fa-product"></i>
+                  add product
+                </Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

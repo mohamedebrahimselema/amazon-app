@@ -123,6 +123,14 @@ const ProductScreen = ({ history, match }) => {
                   >
                     Add To Cart
                   </Button>
+                  <Link
+                    className="btn btn-light my-3"
+                    to={`/EditProduct/${product._id}`}
+                  >
+                    <Button className="btn-block" type="button">
+                      Edit
+                    </Button>
+                  </Link>
                 </ListGroup.Item>
               </ListGroup>
             </Card>
